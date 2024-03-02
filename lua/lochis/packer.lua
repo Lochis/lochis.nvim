@@ -5,6 +5,15 @@ return require('packer').startup(function(use)
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
 
+    use {
+        'nvimdev/dashboard-nvim',
+        event = 'VimEnter',
+        config = function()
+            require('lochis.dashboard')
+        end,
+        requires = {'nvim-tree/nvim-web-devicons'}
+    }
+
 
     use {
         'nvim-telescope/telescope.nvim', tag = '0.1.5',
@@ -55,6 +64,7 @@ return require('packer').startup(function(use)
             "3rd/image.nvim", -- Optional image support in preview window: See `# Preview Mode` for more information
         }
     }
+
 
 end)
 
