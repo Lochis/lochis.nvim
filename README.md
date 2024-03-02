@@ -9,7 +9,7 @@ Plugin List (Packer package manager)
 - Harpoon
 - Undotree
 - Fugitive
-- Lsp-zero
+- ![Lsp-zero](https://github.com/VonHeikemen/lsp-zero.nvim)
 - LuaLine
 - Dressing
 - Mini
