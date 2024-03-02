@@ -14,3 +14,7 @@ Plugin List (Packer package manager)
 - Dressing
 - Mini
 - Nui
+
+
+Background
+![leaves](https://github.com/Lukowie/lochis.nvim/assets/28302600/a98124e7-6906-49ec-818e-1c7ec1fae4e1)
