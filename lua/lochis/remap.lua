@@ -30,4 +30,5 @@ vim.keymap.set("n", "<C-e>", "<cmd>Neotree toggle<cr>", {desc = "Opens Neotree"}
 -- Copies to clipboard (yank to clipboard)
 vim.keymap.set("v", "<C-c>", '"*y', {desc = "Copies to clipboard"})
 
-
+-- Get back to normal mode from Terminal mode
+vim.keymap.set("t", "<esc>", "<C-\\><C-n>", {desc = "Get back to normal mode from Terminal"})
