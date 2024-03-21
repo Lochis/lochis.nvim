@@ -14,7 +14,6 @@ return require('packer').startup(function(use)
         requires = {'nvim-tree/nvim-web-devicons'}
     }
 
-
     use {
         'nvim-telescope/telescope.nvim', tag = '0.1.5',
         -- or                            , branch = '0.1.x',
@@ -23,6 +22,7 @@ return require('packer').startup(function(use)
 
     use { "catppuccin/nvim", as = "catppuccin" }
 
+    use ('mhartington/formatter.nvim')
     use ('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
     use ('nvim-treesitter/playground')
     use ('theprimeagen/harpoon')
@@ -63,6 +63,27 @@ return require('packer').startup(function(use)
             "MunifTanjim/nui.nvim",
             "3rd/image.nvim", -- Optional image support in preview window: See `# Preview Mode` for more information
         }
+    }
+    use {
+        "nvim-neorg/neorg",
+        config = function()
+            require('neorg').setup {
+                load = {
+                    ["core.defaults"] = {}, -- Loads default behaviour
+                    ["core.concealer"] = {}, -- Adds pretty icons to your documents
+                    ["core.completion"] ={},
+                    ["core.dirman"] = { -- Manages Neorg workspaces
+                    config = {
+                        workspaces = {
+                            notes = "D:/org/Master_Notes/",
+                        },
+                    },
+                },
+            },
+        }
+    end,
+    run = ":Neorg sync-parsers",
+    requires = "nvim-lua/plenary.nvim",
     }
 
 

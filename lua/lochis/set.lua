@@ -24,3 +24,8 @@ vim.opt.updatetime = 50
 vim.opt.colorcolumn = "0"
 
 vim.g.mapleader = " "
+
+vim.api.nvim_create_autocmd({"BufEnter", "BufWinEnter"}, {
+  pattern = {"*.norg"},
+  command = "set conceallevel=3 | set concealcursor=nv"
+})
