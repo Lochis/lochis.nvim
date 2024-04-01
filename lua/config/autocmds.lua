@@ -4,5 +4,5 @@
 
 vim.api.nvim_create_autocmd({ "BufEnter", "BufWinEnter" }, {
   pattern = { "*.norg" },
-  command = "set conceallevel=3 | set concealcursor=nv",
+  command = "set conceallevel=2 | set concealcursor=nv",
 })
