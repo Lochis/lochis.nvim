@@ -1,14 +1,14 @@
 # 💤 LazyVim - lochis.nvim
 
 # Dependencies
-- [https://luarocks.org/](LuaRocks) (for neorg)
+- [LuaRocks](https://luarocks.org/) (for neorg)
 
 # Plugins
-- [https://github.com/nvim-neorg/neorg](Neorg)
-- [https://github.com/lukas-reineke/indent-blankline.nvim](indent-blankline)
-- [https://github.com/jesseduffield/lazygit](lazygit)
-- [https://github.com/nvim-treesitter/nvim-treesitter](treesitter)
-- [https://github.com/folke/trouble.nvim](trouble)
+- [Neorg](https://github.com/nvim-neorg/neorg)
+- [indent-blankline](https://github.com/lukas-reineke/indent-blankline.nvim)
+- [lazygit](https://github.com/jesseduffield/lazygit)
+- [treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+- [trouble](https://github.com/folke/trouble.nvim)
 
 # Color Scheme
-- [https://github.com/rebelot/kanagawa.nvim](Kanagawa-Dragon)
+- [Kanagawa-Dragon](https://github.com/rebelot/kanagawa.nvim)
