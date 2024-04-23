@@ -37,6 +37,7 @@ return {
               engine = "nvim-cmp",
             },
           },
+          ["core.export"] = {},
           ["core.dirman"] = { -- Manages Neorg workspaces
             config = {
               workspaces = {
