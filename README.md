@@ -1,6 +1,7 @@
 # 💤 LazyVim - lochis.nvim
 
 # Dependencies
+- [Mingw-w64](https://launchpad.net/ubuntu/+source/mingw-w64)
 - [LuaRocks](https://luarocks.org/) (for neorg)
 - [LazyGit](https://github.com/jesseduffield/lazygit) for lazygit
 
