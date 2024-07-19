@@ -63,8 +63,8 @@ return {
         sidebars = "transparent",
         floats = "transparent",
       },
-      --colorscheme = "kanagawa-dragon",
-      colorscheme = "catppuccin",
+      colorscheme = "kanagawa-dragon",
+      --colorscheme = "catppuccin",
       --
     },
   },

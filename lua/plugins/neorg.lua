@@ -41,8 +41,8 @@ return {
           ["core.dirman"] = { -- Manages Neorg workspaces
             config = {
               workspaces = {
-                notes = "D:/org/Master_Notes/",
-                google = "D:/org/Master_Notes/Google_IT_Support",
+                --                notes = "D:/org/Master_Notes/",
+                --               google = "D:/org/Master_Notes/Google_IT_Support",
               },
             },
           },
