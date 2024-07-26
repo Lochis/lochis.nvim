@@ -3,7 +3,7 @@ return {
   {
     "rebelot/kanagawa.nvim",
     opts = {
-      transparent_mode = true,
+      transparent = true,
       styles = {
         sidebars = "transparent",
         float = "transparent",
@@ -63,7 +63,7 @@ return {
         sidebars = "transparent",
         floats = "transparent",
       },
-      colorscheme = "kanagawa-dragon",
+      colorscheme = "kanagawa-wave",
       --colorscheme = "catppuccin",
       --
     },
