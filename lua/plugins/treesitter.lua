@@ -6,13 +6,14 @@ return {
     ensure_installed = {
       "norg",
       highlight = {
-        enable = false,
+        enable = true,
       },
       "javascript",
       "typescript",
       "json",
       "lua",
       "html",
+      "markdown",
     },
   },
   config = function(_, opts)
